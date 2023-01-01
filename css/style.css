@@ -78,3 +78,69 @@ h6 {
   color: #fdcc52;
 }
 /* Nav - end */
+
+/* Jumbotron - CSS parameter adjustments */
+
+/* Background Image coverage */
+header.jumbotron {
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+    /* color: white; */
+  background: url("../images/calm-waters-3.jpg");
+}
+  
+header.jumbotron h1 {
+    padding-left: 1.5em; 
+    color: #fcbd20;
+}
+
+/* Adjust the size of the Image + add box-shadow */
+header.jumbotron .header-image img {
+  max-width: 12rem;
+  box-shadow: 0px 5px 5px 0px #7aafe3;
+}
+
+header.jumbotron .header-txt h1 {
+    text-align: left;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+  }
+header.jumbotron .header-txt h2 {
+  text-align: left;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+}
+
+
+
+/* Container - Section divider */
+.sideAccent {
+    background: #fcbd20;
+    width: 8px;
+    height: 400px;
+  }
+
+  header.jumbotron .btnCTA .button {
+  color: #fcbd20;
+}
+
+
+
+
+
+/* ======== Media Queries ======== */
+
+/* Profile - Adjusting accent length for screen sizes */
+@media screen and (max-width: 1200px) {
+    .sideAccent { 
+        height: 475px;
+    }
+}
+@media screen and (max-width: 990px) {
+    .sideAccent { 
+        height: 0px;
+    }
+}    
+/* Accent-end */
