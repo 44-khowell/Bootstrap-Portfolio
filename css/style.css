@@ -106,7 +106,7 @@ header.jumbotron .header-txt h1 {
     text-align: left;
     padding-top: 0.5em;
     padding-left: 0.5em;
-  }
+}
 header.jumbotron .header-txt h2 {
   text-align: left;
   padding-top: 0.5em;
@@ -117,18 +117,57 @@ header.jumbotron .header-txt h2 {
 
 /* Container - Section divider */
 .sideAccent {
-    background: #fcbd20;
-    width: 8px;
-    height: 400px;
-  }
-
-  header.jumbotron .btnCTA .button {
-  color: #fcbd20;
+  background: #fcbd20;
+  width: 8px; 
+  height: 400px;
 }
 
 
 
+/* ===== Work Section ===== */
 
+/* Cards - Image padding */
+.container-fluid .card {
+    width: 96%;
+    margin-left: 2%;
+  }
+/* Cards - Image text parameters */
+.container-fluid .col-lg-7 h2 {
+  padding-left: 0.8em;
+  text-transform: uppercase;
+  color: #fcbd20;
+  font-weight: 500;
+}
+.container-fluid .col-lg-5 h2 {
+  padding-left: 0.5em;
+  color: #1250cd;
+  font-style: italic;
+  font-weight: 400;
+}
+/* Card container padding */
+.container-fluid .col-lg-5 {
+  padding-bottom: 2em;
+} 
+
+/* Background Transition */ 
+.bg-primary {
+  padding-top: 120px;
+  padding-bottom: 100px;
+  background: linear-gradient(to top, rgba(136, 135, 135, 0.1) 0%, rgba(153, 135, 135, 0.5) 75%, #cfb6b6 100%), url("../images/calm-waters-1.jpg");
+}
+/* -- Project Divider -- */
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 0.2em;
+  width: 50%;
+  background-color: #fcbd20;
+  ;
+}
+/* == Work Section - end == */
 
 /* ======== Media Queries ======== */
 
