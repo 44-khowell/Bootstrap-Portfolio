@@ -30,7 +30,7 @@
   <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
   <div class="container">
-    <a class="navbar-brand" href="#page-top"> <img src="./images/acoustic-guitar.png"> Keith Howell</a> <!-- Brand Title -->
+    <a class="navbar-brand" href="#page-top"> <img src="./images/icons8-goal-48.png"> Keith Howell</a> <!-- Brand Title -->
     <!-- Navbar bootstrap component -->
     <!-- 'Menu'text Button for hamburger icon -->
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" 
@@ -43,16 +43,16 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">                      <!-- Set links justified left -->
         <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#profile">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Get In Touch</a>
+          <a class="nav-link" href="#contact">Get In Touch</a>
         </li>
       </ul>
       <!-- Links end -->
@@ -64,7 +64,7 @@
 
   <!-- Hero Section -->
 <header class="jumbotron jumbotron-fluid">
-  <h1><em><strong>PROFILE</strong></em></h1>
+  <h1 id="profile"><em><strong>PROFILE</strong></em></h1>
   <div class="container h-100">
     <div class="row h-100">
       <div class="col-lg-3">
@@ -77,27 +77,27 @@
       <div class="col-lg- "></div>                                   <!-- Accent space alocation -->
       <div class="col-lg-8">                 
         <div class="header-txt">  
-         <h1> UX Designer </h1>     
-         <h2> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+        <h1> UX Designer </h1>     
+        <h2> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
               tempor incididunt ut labore et dolore magna aliqua. Fames ac turpis 
               egestas sed tempus urna et. Dui ut ornare lectus sit. Neque viverra 
               justo nec ultrices. Netus et malesuada fames ac turpis egestas integer eget aliquet. 
-          </h2>
+        </h2>
         </div>
       </div> 
       <div class="col-lg-10"></div> 
-        <button class="btn btn-primary mx-auto" type="submit">Contact Me</button>
+      <a href="#contact" class="btn btn-primary mx-auto" role="button">Contact Me</a>
     </div>  
   </div>
 </header>
 
-
 <!-- Work Section -->
 <section>
   <div class="container-fluid bg-primary">
+    <h2 id="portfolio"><em><strong>Portfolio</strong></em></h2>
     <div class="row"> 
       <!-- Card 1 -->
-      <div class="col-lg-7"><h2><em>Project 1</em></h2>
+      <div class="col-lg-7"><h2><em>Portfolio Highlights</em></h2>
         <div class="card" style="height: 18rem;">
           <img src="./images/dice.jpg" style="height: 18rem" alt="...">
         </div>
@@ -105,6 +105,7 @@
       <div class="col-lg-5"> <h2>Design Details</h2>
         <div class="card" style="height: 18rem;">
           <div class="card-body bg-light">
+          <h4>Completed Projects</h4>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
             ut labore et dolore magna aliqua. Fames ac turpis egestas sed tempus urna et. Dui ut ornare 
             lectus sit. Neque viverra justo nec ultrices. Netus et malesuada fames ac turpis egestas 
@@ -119,14 +120,15 @@
     <hr>  <!-- Project Dividers -->
     <div class="row"> 
       <!-- Card 2 -->
-      <div class="col-lg-7"><h2><em>Project 2</em></h2>
+      <div class="col-lg-7"><h2><em>Interactive Projects</em></h2>
         <div class="card" style="height: 18rem;">
-          <img src="./images/3_card.png" style="height: 18rem" alt="...">
+          <img src="./images/matrix-ball-1920.jpg" style="height: 18rem" alt="...">
         </div>
       </div>
       <div class="col-lg-5"> <h2>Design Details</h2>
         <div class="card" style="height: 18rem;">
           <div class="card-body bg-light">
+          <h4>Interactive Assets</h4>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
             ut labore et dolore magna aliqua. Fames ac turpis egestas sed tempus urna et. Dui ut ornare 
             lectus sit. Neque viverra justo nec ultrices. Netus et malesuada fames ac turpis egestas 
@@ -141,14 +143,15 @@
     <hr> <!-- Project Dividers -->
     <div class="row"> 
       <!-- Card 3 -->
-      <div class="col-lg-7"><h2><em>Project 3</em></h2>
+      <div class="col-lg-7"><h2><em>New Developments</em></h2>
         <div class="card" style="height: 18rem;">
-          <img src="./images/6_card.png" style="height: 18rem" alt="...">
+          <img src="./images/coding2.png" style="height: 18rem" alt="...">
         </div>
       </div>
       <div class="col-lg-5"> <h2>Design Details</h2>
         <div class="card" style="height: 18rem;">
           <div class="card-body bg-light">
+          <h4>Work In Progress</h4>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
             ut labore et dolore magna aliqua. Fames ac turpis egestas sed tempus urna et. Dui ut ornare 
             lectus sit. Neque viverra justo nec ultrices. Netus et malesuada fames ac turpis egestas 
@@ -165,12 +168,11 @@
 
 </section>
 
-
 <!-- Skills Section -->
 <section class="skills"> 
   <div class="container-fluid">
     <div class="row">
-      <h2><em><strong>Professional Skills</strong></em></h2>
+      <h2 id="skills"><em><strong>Professional Skills</strong></em></h2>
       <div class="col-lg-12" style="height: 20rem;">  
         <h2> <em>Key Skills</em> </h2>
         <ul class="listPro">
@@ -203,7 +205,7 @@
 <section class="contact">
   <div class="container-fluid"> 
     <div class="sectionHeading"> 
-      <h2><em>Get In Touch</em></h2> 
+      <h2 id="contact"><em>Get In Touch</em></h2> 
       <div class="row"> 
         <div class="col-lg-4" style="height: 15rem;">  
           <h3><em>About Me</em></h3>
@@ -211,8 +213,7 @@
             eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 
           <p>Click below for further details:</p>
-          <button style="font-size:20px">Download My Resume<i class="mx-2" href=""> <img src="./images/icons8-download-64.png" alt="download icon" style="width:40px;height:40px;"> </i></button>
-
+          <button style="font-size:20px">Download My Resume<i class="mx-2"> <a href="./images/Resume_JohnSmithSample.jpg" download> <img src="./images/icons8-download-64.png" alt="download icon" style="width:40px;height:40px;"></a></i> </button>
         </div>
         <div class="col-lg-7" style="height: 20rem;">   
           <h3> <em>Contact</em> </h3>
