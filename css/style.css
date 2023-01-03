@@ -260,26 +260,35 @@ hr {
 .contact .social {
   margin-top: 0rem;
 }
-.contact .social a {
-  height: 3rem;
-  width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
-  line-height: 3rem;
+
+/* Targeting social links - hover effect */
+
+/* Icon outline hover parameters */
+.contact .social a.mx-2 {
+  padding: 0.35em 0.35em;
+  border-radius: 50%;
+  text-decoration: none;
+  text-align: center;
+  transition: all .35s;
+  background: rgba(255, 255, 255, 0.523);
   color: rgba(255, 255, 255, 0.3);
 }
 
-.contact .social a:hover {
-    color: rgba(255, 255, 255, 0.5);
-  }
-  
-.contact .social a:active {
-    color: #fff;
-  }
-  
+/* Hover link coloring */
+.contact .social a.mx-2:hover {
+  background: rgba(247, 223, 171, 0.853);
+}
+
+/* Hover link activing color */
+.contact .social a.mx-2:active {
+  background: rgba(191, 236, 136, 0.608);
+}
+
 /* Contact form */
 form {
   width: 500px;
   margin: 35px;
+  padding-right: 20px;
   padding: 20px;
   border: 1px solid #f2f2f2;
   -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
@@ -287,8 +296,6 @@ form {
   box-shadow: 0 1px 4px rgba(0,0,0,0.1), 0 0 40px rgba(0,0,0,0.1);
   background-color: rgba(255, 255, 255, 0.671);
 }
-
-
 
 /* == About - end == */
 
