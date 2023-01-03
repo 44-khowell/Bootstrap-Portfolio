@@ -157,16 +157,16 @@ header.jumbotron .header-txt h2 {
 }
 /* -- Project Divider -- */
 hr {
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 1em;
-  margin-left: auto;
-  margin-right: auto;
-  border-width: 0.2em;
-  width: 50%;
-  background-color: #fcbd20;
-  ;
-}
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 0.2em;
+    width: 50%;
+    background-color: #fcbd20;
+    ; 
+  }
 
 /* == Work-end == */
 
@@ -187,6 +187,13 @@ hr {
 }
 
 /* Text attributes */ 
+/* Text Heading */
+.container-fluid .row h2 {
+    color: #fcbd20;
+    font-weight: 348;
+    text-transform: uppercase;
+}
+
 .container-fluid .col-lg-12 h2 {
   color: #fcbd20;
   font-weight: 500;
@@ -198,27 +205,52 @@ hr {
   list-style-type: none;
 }
 /* List - Icon: dot-circle - inline left padding */ 
-.container-fluid .col-lg-12 ul.listPro-a li {
-    padding-left: 14px;
+.container-fluid .col-lg-12 ul.listPro li {
+  padding-left: 18px;
+  font-size: 20px;
 }
-
-
-
 
 /* == Skills-end == */
 
+/* == About Section == */
+
+.contact .container-fluid {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    background-image: linear-gradient(
+        rgba(247, 246, 231, 0.844) 0%,
+        rgba(246, 243, 190, 0.383) 100%
+    );
+}
+
+.sectionHeading {
+    width: 100%;
+    padding-left: 6rem;
+    padding-bottom: 2rem;
+
+}
+.container-fluid .sectionHeading h2 {
+  color: #fcbd20;
+  font-weight: 500;
+  text-indent: -50px;
+  ;  
+}
 
 /* ======== Media Queries ======== */
 
 /* Profile - Adjusting accent length for screen sizes */
 @media screen and (max-width: 1200px) {
-    .sideAccent { 
-        height: 475px;
-    }
+  .sideAccent { 
+    height: 475px;
+  }
 }
 @media screen and (max-width: 990px) {
-    .sideAccent { 
-        height: 0px;
-    }
+  .sideAccent { 
+    height: 0px;
+  }
 }    
 /* Accent-end */
