@@ -10,12 +10,13 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!-- Font Awsome CSS-->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  
   <!-- Custom fonts for this template -->
-
+  <!-- Font-awesome icons stylesheet code -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
 
   <!-- Cascade Custom styles (CCS) for this template -->
   <link href="./css/style.css" rel="stylesheet">
@@ -200,33 +201,53 @@
 
 <!-- About / Contact Section -->
 <section class="contact">
-  <div class="container-fluid border"> 
-    <div class="sectionHeading border"> 
+  <div class="container-fluid"> 
+    <div class="sectionHeading"> 
       <h2><em>Get In Touch</em></h2> 
       <div class="row"> 
-        <div class="col-lg-4 border" style="height: 20rem;">  
+        <div class="col-lg-4" style="height: 15rem;">  
           <h3><em>About Me</em></h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+          <p>Click below for further details:</p>
+          <button style="font-size:20px">Download My Resume<i class="mx-2" href=""> <img src="./images/icons8-download-64.png" alt="download icon" style="width:40px;height:40px;"> </i></button>
+
         </div>
-        <div class="col-lg-7 border" style="height: 20rem;">   
+        <div class="col-lg-7" style="height: 20rem;">   
           <h3> <em>Contact</em> </h3>
+          <div class="emailContain">
+            <form>
+              <h4><em>Via eMail...</em></h4>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder="Enter email">
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            </form>
+
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
               tempor incididunt ut labore et dolore magna aliqua. </p>
         </div>
+        <div class="social d-flex justify-content-center">
+          <a class="mx-2" href="#"> <img src="./images/icons8-twitter-48.png" alt="twitter icon"> </a> <!-- Margin sides(2px) -->
+          <a class="mx-2" href="#"> <img src="./images/icons8-facebook-48.png" alt="facebook icon"> </a>
+          <a class="mx-2" href="#"> <img src="./images/icons8-github-64.png" alt="giuthub icon" style="width:45px;height:45px;"> </a>
+        </div> 
       </div>
     </div>
   </div> 
 </div>
-
 </section>
 
 
 
 <!-- Footer Section -->
-<section>
-
-</section>
+<footer class="container-fluid">
+  <p>Copyright K. Howell 2023  -  All Rights Reserved.</p>
+</footer>
 
 
 <!-- Optional JavaScript -->

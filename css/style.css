@@ -214,31 +214,109 @@ hr {
 
 /* == About Section == */
 
+/* About - main container parameters */
 .contact .container-fluid {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 40px;
-    padding-right: 10rem;
-    padding-left: 10rem;
-    background-image: linear-gradient(
-        rgba(247, 246, 231, 0.844) 0%,
-        rgba(246, 243, 190, 0.383) 100%
-    );
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  padding-right: 10rem;
+  padding-left: 10rem;
+  background-image: linear-gradient(
+    rgba(247, 246, 231, 0.844) 0%,
+    rgba(246, 243, 190, 0.383) 100%
+);
 }
-
+/* Sub Text Heading */
 .sectionHeading {
-    width: 100%;
-    padding-left: 6rem;
-    padding-bottom: 2rem;
+  width: 100%;
+  padding-left: 6rem;
+  padding-bottom: 2rem;
 
 }
+/* Main Text Heading */
 .container-fluid .sectionHeading h2 {
   color: #fcbd20;
   font-weight: 500;
-  text-indent: -50px;
-  ;  
+  text-indent: -50px; 
+  padding-bottom: 10px;
 }
+/* Sub text heading */
+.container-fluid .sectionHeading h3 {
+  color: #2420fc;
+  font-weight: 398;
+  padding-bottom: 10px;
+}
+.container-fluid .sectionHeading h4 {
+    color: #2420fc;
+    font-weight: 398;
+    padding-bottom: 10px;
+}
+/* Social icons - spacing from cards */
+.contact .social {
+  margin-top: 0rem;
+}
+.contact .social a {
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.contact .social a:hover {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+.contact .social a:active {
+    color: #fff;
+  }
+  
+/* Contact form */
+form {
+  width: 500px;
+  margin: 35px;
+  padding: 20px;
+  border: 1px solid #f2f2f2;
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1), 0 0 40px rgba(0,0,0,0.1);
+  background-color: rgba(255, 255, 255, 0.671);
+}
+
+
+
+/* == About - end == */
+
+
+/* ====== Footer section ======= */
+footer {
+    padding: 25px 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #222222;
+  }
+
+/* Font size */
+footer p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  footer ul {
+    margin-bottom: 0;
+  }
+
+  footer ul li a {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.3);
+  }
+  
+  footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
+    text-decoration: none;
+  }
+  /* Footer section - end */
+
 
 /* ======== Media Queries ======== */
 
