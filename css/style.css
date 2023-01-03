@@ -1,0 +1,349 @@
+/* Global styles ============= */
+html,
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+/* ==== Navigation bar styles ===== */
+
+#mainNav {
+  border-color: rgba(34, 34, 34, 0.05);
+  background-color:#22b6e7;
+  transition: all .35s;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif'; font-weight: 200;
+  letter-spacing: 1px;
+} 
+
+/* Brand (name) Text color */
+#mainNav .navbar-brand {
+  color: #fdcc52;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif'; font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 25px;
+}
+/* Brand (name) Hover Text color change */
+#mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+  color: #fcbd20;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  padding: 8px 10px;
+  color: #222222;
+}
+
+/* Nav links font & Cases formatting */
+#mainNav .navbar-nav > li > a {
+  font-size: 14px;
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#mainNav .navbar-nav > li > a.active {
+  color: #fdcc52 !important;
+  background-color: transparent;
+}
+
+/* hover transparent */
+#mainNav .navbar-nav > li > a.active:hover {
+  background-color: transparent;
+}
+
+/* Nav links - hover color change */  
+#mainNav .navbar-nav > li > a,
+#mainNav .navbar-nav > li > a:focus {
+  color: #222222;
+}
+
+#mainNav .navbar-nav > li > a:hover,
+#mainNav .navbar-nav > li > a:focus:hover {
+  color: #fdcc52;
+}
+/* Nav - end */
+
+/* Jumbotron - CSS parameter adjustments */
+
+/* Background Image coverage */
+header.jumbotron {
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background: url("../images/calm-waters-3.jpg");
+}
+  
+header.jumbotron h1 {
+  padding-left: 1.5em; 
+  color: #fcbd20;
+}
+
+/* Adjust the size of the Image + add box-shadow */
+header.jumbotron .header-image img {
+  max-width: 12rem;
+  box-shadow: 0px 5px 5px 0px #7aafe3;
+}
+
+header.jumbotron .header-txt h1 {
+  text-align: left;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+}
+header.jumbotron .header-txt h2 {
+  text-align: left;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+}
+
+/* Container - Section divider */
+.sideAccent {
+  background: #fcbd20;
+  width: 8px; 
+  height: 400px;
+}
+
+/* ===== Work Section ===== */
+
+/* Cards - Image padding */
+.container-fluid .card {
+  width: 96%;
+  margin-left: 2%;
+}
+
+  /* Portfolio Heading - text parameters */
+.container-fluid h2 {
+  padding-left: 0.8em;
+  text-transform: uppercase;
+  color: #fcbd20;
+  font-weight: 348;
+  padding-bottom: 25px;
+}
+/* Cards - Image text parameters */
+.container-fluid .col-lg-7 h2 {
+  padding-left: 0.8em;
+  text-transform: uppercase;
+  color: #fcbd20;
+  font-weight: 500;
+}
+.container-fluid .col-lg-5 h4 {
+  color: #1250cd;
+  font-style: italic;
+  font-weight: 400;
+}
+.container-fluid .col-lg-5 i {
+  position: inherit;
+  place-items: end;
+}
+
+/* Card container padding */
+.container-fluid .col-lg-5 {
+  padding-bottom: 2em;
+} 
+
+/* Background Transition */ 
+.bg-primary {
+  padding-top: 120px;
+  padding-bottom: 100px;
+  background: linear-gradient(to top, rgba(136, 135, 135, 0.1) 0%, rgba(153, 135, 135, 0.5) 75%, #cfb6b6 100%), url("../images/calm-waters-1.jpg");
+}
+/* -- Project Divider -- */
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 0.2em;
+  width: 50%;
+  background-color: #fcbd20;
+; 
+  }
+
+/* == Work-end == */
+
+/* == Skills Section == */
+
+/* Container parameters */
+.skills .container-fluid {
+  display: flex;
+  justify-content: left;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 10rem;
+  padding-left: 10rem;
+  background-image: linear-gradient(
+    rgba(7, 175, 253, 0.884)  0%,
+    rgba(167, 240, 245, 0.6) 100%
+  );
+}
+
+/* Text attributes */ 
+/* Text Heading */
+.container-fluid .row h2 {
+  color: #fcbd20;
+  font-weight: 348;
+  text-transform: uppercase;
+}
+
+.container-fluid .col-lg-12 h2 {
+  color: #fcbd20;
+  font-weight: 500;
+  padding: 10px;
+}
+
+/* List - standard bullet removed */
+.container-fluid .col-lg-12 ul.listPro {
+  list-style-type: none;
+}
+/* List - Icon: dot-circle - inline left padding */ 
+.container-fluid .col-lg-12 ul.listPro li {
+  padding-left: 18px;
+  font-size: 20px;
+}
+
+/* == Skills-end == */
+
+/* == About Section == */
+
+/* About - main container parameters */
+.contact .container-fluid {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  padding-right: 10rem;
+  padding-left: 10rem;
+  background-image: linear-gradient(
+    rgba(247, 246, 231, 0.844) 0%,
+    rgba(246, 243, 190, 0.383) 100%
+);
+}
+/* Sub Text Heading */
+.sectionHeading {
+  width: 100%;
+  padding-left: 6rem;
+  padding-bottom: 2rem;
+
+}
+/* Main Text Heading */
+.container-fluid .sectionHeading h2 {
+  color: #fcbd20;
+  font-weight: 500;
+  text-indent: -50px; 
+  padding-bottom: 10px;
+}
+/* Sub text heading */
+.container-fluid .sectionHeading h3 {
+  color: #2420fc;
+  font-weight: 398;
+  padding-bottom: 10px;
+}
+.container-fluid .sectionHeading h4 {
+  color: #2420fc;
+  font-weight: 398;
+  padding-bottom: 10px;
+}
+/* Social icons - spacing from cards */
+.contact .social {
+  margin-top: 0rem;
+}
+
+/* Targeting social links - hover effect */
+
+/* Icon outline hover parameters */
+.contact .social a.mx-2 {
+  padding: 0.35em 0.35em;
+  border-radius: 50%;
+  text-decoration: none;
+  text-align: center;
+  transition: all .35s;
+  background: rgba(255, 255, 255, 0.523);
+  color: rgba(255, 255, 255, 0.3);
+}
+
+/* Hover link coloring */
+.contact .social a.mx-2:hover {
+  background: rgba(247, 223, 171, 0.853);
+}
+
+/* Hover link activing color */
+.contact .social a.mx-2:active {
+  background: rgba(191, 236, 136, 0.608);
+}
+
+/* Contact form */
+form {
+  width: 500px;
+  margin: 35px;
+  padding-right: 0px;
+  padding: 20px;
+  border: 1px solid #f2f2f2;
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1), 0 0 40px rgba(0,0,0,0.1);
+  background-color: rgba(255, 255, 255, 0.671);
+}
+
+/* == About - end == */
+
+
+/* ====== Footer section ======= */
+footer {
+  padding: 25px 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #222222;
+}
+
+/* Font size */
+footer p {
+  font-size: 14px;
+  margin: 0;
+}
+  
+footer ul {
+  margin-bottom: 0;
+}
+
+footer ul li a {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.3);
+}
+  
+footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
+  text-decoration: none;
+}
+  /* Footer section - end */
+
+
+/* ======== Media Queries ======== */
+
+/* Profile - Adjusting accent length for screen sizes */
+@media screen and (max-width: 1200px) {
+  .sideAccent { 
+    height: 475px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .sideAccent { 
+    height: 0px;
+  }
+}    
+/* Accent-end */

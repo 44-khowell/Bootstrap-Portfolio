@@ -5,66 +5,260 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> . <!-- Responsive Viewport -->
 
   <!-- Bootstrap CSS -->
-
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
   <!-- Custom fonts for this template -->
-
+  <!-- Font-awesome icons stylesheet code -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
 
   <!-- Cascade Custom styles (CCS) for this template -->
-  <link href="css/index.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
 
-  <title>Developer Portfolio</title>
-
+  <title>KH Developer Portfolio</title>
 </head>
 
 <!-- Start of Main page -->
 <body>
 
   <!-- Navigation -->
-<nav>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="#page-top"> <img src="./images/icons8-goal-48.png"> Keith Howell</a> <!-- Brand Title -->
+    <!-- Navbar bootstrap component -->
+    <!-- 'Menu'text Button for hamburger icon -->
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" 
+      data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" 
+      aria-label="Toggle navigation">
+      Menu
+      <span class="navbar-toggler-icon"></span>
+    </button> <!--Button end -->
+    <!-- Nav Links -->
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">                      <!-- Set links justified left -->
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#profile">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Get In Touch</a>
+        </li>
+      </ul>
+      <!-- Links end -->
+    </div>
 
+  </div>
 </nav>
 
 
   <!-- Hero Section -->
-<header>
-
+<header class="jumbotron jumbotron-fluid">
+  <h1 id="profile"><em><strong>PROFILE</strong></em></h1>
+  <div class="container h-100">
+    <div class="row h-100">
+      <div class="col-lg-3">
+        <div class="header-image text-center"> <!--Horizontal centering - zero margin bottom device -->
+          <img class="image-fluid rounded-circle mb-3" src="./images/kh-pix2.png" alt="keith howell" > <!-- Making image responsive to devices & shape change -->
+          <h4>Keith Howell</h4>
+        </div>
+      </div>
+      <div class="sideAccent"></div>                                 <!-- Content divider -->  
+      <div class="col-lg- "></div>                                   <!-- Accent space alocation -->
+      <div class="col-lg-8">                 
+        <div class="header-txt">  
+        <h1> UX Designer </h1>     
+        <h2> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+              tempor incididunt ut labore et dolore magna aliqua. Fames ac turpis 
+              egestas sed tempus urna et. Dui ut ornare lectus sit. Neque viverra 
+              justo nec ultrices. Netus et malesuada fames ac turpis egestas integer eget aliquet. 
+        </h2>
+        </div>
+      </div> 
+      <div class="col-lg-10"></div> 
+      <a href="#contact" class="btn btn-primary mx-auto" role="button">Contact Me</a>
+    </div>  
+  </div>
 </header>
-
-
 
 <!-- Work Section -->
 <section>
+  <div class="container-fluid bg-primary">
+    <h2 id="portfolio"><em><strong>Portfolio</strong></em></h2>
+    <div class="row"> 
+      <!-- Card 1 -->
+      <div class="col-lg-7"><h2><em>Portfolio Highlights</em></h2>
+        <div class="card" style="height: 18rem;">
+          <img src="./images/dice.jpg" style="height: 18rem" alt="...">
+        </div>
+      </div>  
+      <div class="col-lg-5"> <h2>Design Details</h2>
+        <div class="card" style="height: 18rem;">
+          <div class="card-body bg-light">
+          <h4>Completed Projects</h4>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+            ut labore et dolore magna aliqua. Fames ac turpis egestas sed tempus urna et. Dui ut ornare 
+            lectus sit. Neque viverra justo nec ultrices. Netus et malesuada fames ac turpis egestas 
+            integer eget aliquet. Morbi blandit cursus risus at ultrices mi tempus. Ut tellus elementum 
+            sagittis vitae. Nibh sit amet commodo nulla. Nisl pretium fusce id velit ut tortor. 
+            Tristique magna sit amet purus.
+            <a href="#" class="btn btn-primary mx-auto" role="button"><i>View more</i></a>
+          </div>
+        </div>
+      </div>     
+    </div>
+    <hr>  <!-- Project Dividers -->
+    <div class="row"> 
+      <!-- Card 2 -->
+      <div class="col-lg-7"><h2><em>Interactive Projects</em></h2>
+        <div class="card" style="height: 18rem;">
+          <img src="./images/matrix-ball-1920.jpg" style="height: 18rem" alt="...">
+        </div>
+      </div>
+      <div class="col-lg-5"> <h2>Design Details</h2>
+        <div class="card" style="height: 18rem;">
+          <div class="card-body bg-light">
+          <h4>Interactive Assets</h4>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+            ut labore et dolore magna aliqua. Fames ac turpis egestas sed tempus urna et. Dui ut ornare 
+            lectus sit. Neque viverra justo nec ultrices. Netus et malesuada fames ac turpis egestas 
+            integer eget aliquet. Morbi blandit cursus risus at ultrices mi tempus. Ut tellus elementum 
+            sagittis vitae. Nibh sit amet commodo nulla. Nisl pretium fusce id velit ut tortor. 
+            Tristique magna sit amet purus. 
+            <a href="#" class="btn btn-primary mx-auto" role="button"><i>View more</i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr> <!-- Project Dividers -->
+    <div class="row"> 
+      <!-- Card 3 -->
+      <div class="col-lg-7"><h2><em>New Developments</em></h2>
+        <div class="card" style="height: 18rem;">
+          <img src="./images/coding2.png" style="height: 18rem" alt="...">
+        </div>
+      </div>
+      <div class="col-lg-5"> <h2>Design Details</h2>
+        <div class="card" style="height: 18rem;">
+          <div class="card-body bg-light">
+          <h4>Work In Progress</h4>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+            ut labore et dolore magna aliqua. Fames ac turpis egestas sed tempus urna et. Dui ut ornare 
+            lectus sit. Neque viverra justo nec ultrices. Netus et malesuada fames ac turpis egestas 
+            integer eget aliquet. Morbi blandit cursus risus at ultrices mi tempus. Ut tellus elementum 
+            sagittis vitae. Nibh sit amet commodo nulla. Nisl pretium fusce id velit ut tortor. 
+            Tristique magna sit amet purus.
+            <a href="#" class="btn btn-primary mx-auto" role="button"><i>View more</i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr> <!-- Project Dividers -->
+  </div>
 
 </section>
-
 
 <!-- Skills Section -->
-<section>
-
+<section class="skills"> 
+  <div class="container-fluid">
+    <div class="row">
+      <h2 id="skills"><em><strong>Professional Skills</strong></em></h2>
+      <div class="col-lg-12" style="height: 20rem;">  
+        <h2> <em>Key Skills</em> </h2>
+        <ul class="listPro">
+          <!-- Apply 'Bullet - dot-circle & padding'-->
+          <li> <i class="fa fa-dot-circle-o" style="padding-right:15px;"></i> <strong>Specializing in Front-end Development projects</strong> </li>
+          <li> <i class="fa fa-dot-circle-o" style="padding-right:15px;"></i> HTML / CSS / Git </li>
+          <li> <i class="fa fa-dot-circle-o" style="padding-right:15px;"></i> (UI) User Interface & (UX) User Experience Design </li>
+          <li> <i class="fa fa-dot-circle-o" style="padding-right:15px;"></i> React / JavaScript / CSS</li>
+          <li> <i class="fa fa-dot-circle-o" style="padding-right:15px;"></i> API's / jQuery / JSON / AJAX</li>
+          <li> <i class="fa fa-dot-circle-o" style="padding-right:15px;"></i> Bootstrap implementations </li>
+          <li> <i class="fa fa-dot-circle-o" style="padding-right:15px;"></i> Agile & SW Development Processes </li>
+        </ul>
+      </div>
+      <hr>
+      <div class="col-lg-12" style="height: 13rem;">
+        <h2> <em>Soft Skills</em> </h2>
+        <ul class="listPro">
+          <li> <i class="fa fa-dot-circle-o" style="padding-right:15px;"></i> Experienced versatile professional, accustomed to working with a variety of disciplines</li>
+          <li> <i class="fa fa-dot-circle-o" style="padding-right:15px;"></i> Rigorous, logcial and methodical approach applied to tasks</li>
+          <li> <i class="fa fa-dot-circle-o" style="padding-right:15px;"></i> Accustomed to working on my own initiative with a positive outlook</li>
+        </ul>
+      </div> 
+      <hr>   
+    </div>
+  </div>
 </section>
-
 
 <!-- About / Contact Section -->
-<section>
+<section class="contact">
+  <div class="container-fluid"> 
+    <div class="sectionHeading"> 
+      <h2 id="contact"><em>Get In Touch</em></h2> 
+      <div class="row"> 
+        <div class="col-lg-4" style="height: 15rem;">  
+          <h3><em>About Me</em></h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 
+          <p>Click below for further details:</p>
+          <button style="font-size:20px">Download My Resume<i class="mx-2"> <a href="./images/Resume_JohnSmithSample.jpg" download> <img src="./images/icons8-download-64.png" alt="download icon" style="width:40px;height:40px;"></a></i> </button>
+        </div>
+        <div class="col-lg-6" style="height: 25rem;">   
+          <h3> <em>Contact</em> </h3>
+          <i style='font-size:20px'> <img src="./images/icons8-phone-30.png" alt="phone icon"> <i style="color:black;"> Call: +44-07516-694243</i>  </i>
+          
+          <div class="emailContain">
+            <form>
+              <h4><em>Via eMail...</em></h4>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder="Enter email">
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            </form>
+        </div> <!--check-->
+        </div>
+        <div class="social d-flex justify-content-center">
+          <a class="mx-2" href="#"> <img src="./images/icons8-twitter-48.png" alt="twitter icon"> </a> <!-- Margin sides(2px) -->
+          <a class="mx-2" href="#"> <img src="./images/icons8-facebook-48.png" alt="facebook icon"> </a>
+          <a class="mx-2" href="#"> <img src="./images/icons8-github-64.png" alt="giuthub icon" style="width:45px;height:45px;"> </a>
+        </div> 
+      </div>
+    </div>
+  </div> 
+</div>
 </section>
-
-
 
 <!-- Footer Section -->
-<section>
-
-</section>
+<footer class="container-fluid">
+  <p>Copyright K. Howell 2023  -  All Rights Reserved.</p>
+</footer>
 
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
-
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
