@@ -91,8 +91,8 @@ header.jumbotron {
 }
   
 header.jumbotron h1 {
-    padding-left: 1.5em; 
-    color: #fcbd20;
+  padding-left: 1.5em; 
+  color: #fcbd20;
 }
 
 /* Adjust the size of the Image + add box-shadow */
@@ -102,9 +102,9 @@ header.jumbotron .header-image img {
 }
 
 header.jumbotron .header-txt h1 {
-    text-align: left;
-    padding-top: 0.5em;
-    padding-left: 0.5em;
+  text-align: left;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
 }
 header.jumbotron .header-txt h2 {
   text-align: left;
@@ -123,18 +123,18 @@ header.jumbotron .header-txt h2 {
 
 /* Cards - Image padding */
 .container-fluid .card {
-    width: 96%;
-    margin-left: 2%;
-  }
+  width: 96%;
+  margin-left: 2%;
+}
 
   /* Portfolio Heading - text parameters */
 .container-fluid h2 {
-    padding-left: 0.8em;
-    text-transform: uppercase;
-    color: #fcbd20;
-    font-weight: 348;
-    padding-bottom: 25px;
-  }
+  padding-left: 0.8em;
+  text-transform: uppercase;
+  color: #fcbd20;
+  font-weight: 348;
+  padding-bottom: 25px;
+}
 /* Cards - Image text parameters */
 .container-fluid .col-lg-7 h2 {
   padding-left: 0.8em;
@@ -142,12 +142,16 @@ header.jumbotron .header-txt h2 {
   color: #fcbd20;
   font-weight: 500;
 }
-.container-fluid .col-lg-5 h2 {
-  padding-left: 0.5em;
+.container-fluid .col-lg-5 h4 {
   color: #1250cd;
   font-style: italic;
   font-weight: 400;
 }
+.container-fluid .col-lg-5 i {
+  position: inherit;
+  place-items: end;
+}
+
 /* Card container padding */
 .container-fluid .col-lg-5 {
   padding-bottom: 2em;
@@ -161,15 +165,15 @@ header.jumbotron .header-txt h2 {
 }
 /* -- Project Divider -- */
 hr {
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 2em;
-    margin-left: auto;
-    margin-right: auto;
-    border-width: 0.2em;
-    width: 50%;
-    background-color: #fcbd20;
-    ; 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 0.2em;
+  width: 50%;
+  background-color: #fcbd20;
+; 
   }
 
 /* == Work-end == */
@@ -193,9 +197,9 @@ hr {
 /* Text attributes */ 
 /* Text Heading */
 .container-fluid .row h2 {
-    color: #fcbd20;
-    font-weight: 348;
-    text-transform: uppercase;
+  color: #fcbd20;
+  font-weight: 348;
+  text-transform: uppercase;
 }
 
 .container-fluid .col-lg-12 h2 {
@@ -252,9 +256,9 @@ hr {
   padding-bottom: 10px;
 }
 .container-fluid .sectionHeading h4 {
-    color: #2420fc;
-    font-weight: 398;
-    padding-bottom: 10px;
+  color: #2420fc;
+  font-weight: 398;
+  padding-bottom: 10px;
 }
 /* Social icons - spacing from cards */
 .contact .social {
@@ -288,7 +292,7 @@ hr {
 form {
   width: 500px;
   margin: 35px;
-  padding-right: 20px;
+  padding-right: 0px;
   padding: 20px;
   border: 1px solid #f2f2f2;
   -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
@@ -302,30 +306,30 @@ form {
 
 /* ====== Footer section ======= */
 footer {
-    padding: 25px 0;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.3);
-    background-color: #222222;
-  }
+  padding: 25px 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #222222;
+}
 
 /* Font size */
 footer p {
-    font-size: 14px;
-    margin: 0;
-  }
+  font-size: 14px;
+  margin: 0;
+}
   
-  footer ul {
-    margin-bottom: 0;
-  }
+footer ul {
+  margin-bottom: 0;
+}
 
-  footer ul li a {
-    font-size: 20px;
-    color: rgba(255, 255, 255, 0.3);
-  }
+footer ul li a {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.3);
+}
   
-  footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
-    text-decoration: none;
-  }
+footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
+  text-decoration: none;
+}
   /* Footer section - end */
 
 
